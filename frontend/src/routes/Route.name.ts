@@ -76,5 +76,8 @@ export default {
   PROGRAM_QUERIES_DETAIL: "/user/program/queries/detail/",
   CHAT_MASTER: "/chat/master",
 
-  DOCTOR_DASHBOARD:"/doctor/dashboard"
+  DOCTOR_DASHBOARD:"/doctor/dashboard",
+
+  ENGINEERING_DASHBOARD: "/engineer",
+  MANGER_DASHBOARD: "/manager",
 };

@@ -46,9 +46,6 @@ const Login = () => {
   return (
     <div className="login-container">
       <form className="login-box" onSubmit={handleLogin}>
-         <h1 className="text-3xl font-bold text-blue-500">
-    Hello world!
-  </h1>
         <h2>Login</h2>
         {error && <div className="error">{error}</div>}
 
@@ -68,11 +65,11 @@ const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
 
-        <button type="submit">Login</button>
-        <Button>Default</Button>
+        <Button type="submit" >Login</Button>
+        {/* <Button>Default</Button>
       <Button variant="secondary">Secondary</Button>
       <Button variant="destructive">Delete</Button>
-      <Button variant="outline">Outline</Button>
+      <Button variant="outline">Outline</Button> */}
       </form>
     </div>
   );
